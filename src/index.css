@@ -316,8 +316,9 @@ a {
   position: fixed;
   width: 100%;
   bottom: 0;
-  color: white;
+  color: black;
   font-size: 25px;
+  font-family: "Roboto", sans-serif;
 }
 
 .aboutme {
