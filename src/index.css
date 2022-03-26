@@ -28,6 +28,7 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+  --greenish: #40916c;
 }
 
 * {
@@ -46,9 +47,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
-  color: var(--primary);
-  font-family: "Poiret One", cursive;
+  background: var(--light);
+  color: var(--greenish);
+  font-family: "Segoe UI";
 }
 
 h1,
@@ -93,7 +94,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--greenish);
   text-decoration: none;
   font-weight: bold;
 }
@@ -103,7 +104,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: #1b4332;
 }
 
 header a {
@@ -280,7 +281,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: #1b4332;
   border: 0;
   border-radius: 5px;
   color: #fff;
@@ -293,7 +294,7 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--greenish);
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
@@ -302,4 +303,8 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.navitem {
+  justify-content: space-between;
 }

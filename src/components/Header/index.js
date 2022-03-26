@@ -5,11 +5,14 @@ import Profile from '../Profile';
 import ContactForm from '../Contact';
 
 function Headerhome(){
-    const [contactSelected, setContactSelected] = useState(false);
+
     return (
         <div>
-             <About></About>
-             <ContactForm></ContactForm>
+            <Nav
+            ></Nav>
+            <About></About>
+            <Profile></Profile>
+            <ContactForm></ContactForm>
         </div>
     );
 }

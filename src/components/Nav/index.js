@@ -8,10 +8,10 @@ function Nav(props){
       } = props;
 
     return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1 space-between">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Sandeep Vittala
+          <span role="img" aria-label="Sandeep"> </span> Sandeep Vittala
         </a>
       </h2>
       <nav>
@@ -19,6 +19,11 @@ function Nav(props){
           <li className= "mx-2">
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
+            </a>
+          </li>
+          <li className= "mx-2">
+            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+              Projects
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
