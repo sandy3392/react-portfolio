@@ -47,7 +47,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--light);
+  background: var(--dark);
   color: var(--greenish);
   font-family: "Segoe UI";
 }
@@ -105,6 +105,7 @@ a:hover {
 
 header {
   background: #1b4332;
+  margin-bottom: 100px;
 }
 
 header a {
@@ -245,6 +246,7 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+  margin: 25px;
 }
 
 .img-thumbnail {
@@ -307,4 +309,23 @@ a {
 
 .navitem {
   justify-content: space-between;
+}
+
+.footer {
+  background-color: #1b4332;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 25px;
+}
+
+.aboutme {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center !important;
+}
+
+.contactmodule {
+  margin: 50px;
 }

@@ -3,8 +3,8 @@ import React from "react";
 function Nav(props){
 
     const {
-        contactSelected,
-        setContactSelected
+        currentModule,
+        setcurrentModule
       } = props;
 
     return (
@@ -17,17 +17,17 @@ function Nav(props){
       <nav>
         <ul className="flex-row">
           <li className= "mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            <a data-testid="about" href="#about" onClick={() => setcurrentModule("About")}>
               About me
             </a>
           </li>
           <li className= "mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            <a data-testid="projects" href="#projects" onClick={() => setcurrentModule("Profile")}>
               Projects
             </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-          <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className={`mx-2`}>
+          <span onClick={() => setcurrentModule("ContactForm")}>Contact</span>
           </li>
         </ul>
       </nav>

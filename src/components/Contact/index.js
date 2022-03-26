@@ -32,18 +32,18 @@ function ContactForm() {
     }
 
     return (
-        <section>
+        <section className='contactmodule'>
           <h1 data-testid="h1tag">Contact me</h1>
           <form id="contact-form" onSubmit={handleSubmit} >
-            <div class="row mb-5">
+            <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text"  defaultValue={name} onBlur={handleChange} name="name" />
             </div>
-            <div class="row gx-5">
+            <div>
                 <label htmlFor="email">Email address:</label>
                 <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
             </div>
-            <div class="row ">
+            <div>
                 <label htmlFor="message">Message:</label>
                 <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 {errorMessage && (

@@ -5,14 +5,16 @@ import Profile from '../Profile';
 import ContactForm from '../Contact';
 
 function Headerhome(){
-
+    const [currentModule, setcurrentModule] = useState("About");
     return (
         <div>
             <Nav
+            currentModule = {currentModule}
+            setcurrentModule = {setcurrentModule}
             ></Nav>
-            <About></About>
-            <Profile></Profile>
-            <ContactForm></ContactForm>
+            {currentModule === "About" && <About></About>}
+            {currentModule === "Profile" && <Profile></Profile>}
+            {currentModule === "ContactForm" && <ContactForm></ContactForm>}
         </div>
     );
 }
