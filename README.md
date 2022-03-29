@@ -1,3 +1,7 @@
+## About Me
+
+Hey All , this is Sandeep Vittala, this is my Portfolio Page with my personal projects
+
 Portfolio Page Url: https://sandy3392.github.io/react-portfolio/
 
 Screenshot:
