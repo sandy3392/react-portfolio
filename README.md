@@ -1,3 +1,14 @@
+## About Me
+
+Hey All , this is Sandeep Vittala, this is my Portfolio Page with my personal projects
+
+Portfolio Page Url: https://sandy3392.github.io/react-portfolio/
+
+Screenshot:
+<img width="2240" alt="Screenshot" src="https://user-images.githubusercontent.com/89868916/160507951-68abb26c-5809-4bae-aadb-2fdf06054ebe.png">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
