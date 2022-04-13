@@ -39,7 +39,13 @@ function Profile(){
           githuburl: 'https://github.com/cmrotruck/recipe-search',
           image: 'https://user-images.githubusercontent.com/89868916/160260655-0b62ae78-d57b-4dee-8e14-bb19670e6182.png',
           description: 'A website that allows users to search for a recipe and has the ability to give nutritional information'
-        }
+        },
+        {
+          name: 'Drink And Draw',
+          githuburl: 'https://github.com/sandy3392/drink-and-draw',
+          image: 'https://user-images.githubusercontent.com/89868916/163282858-662fd889-802f-415b-b350-0c024e174cfa.png',
+          description: 'Drink And Draw is an Ecommerce website where you can order a package which includes a drink and materials to paint a picture for yourself or for a group'
+        },
       ]);
     return (
         <div>
@@ -50,8 +56,7 @@ function Profile(){
                         <Card.Body>
                             <Card.Title>{project.name}</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                             {project.description}
                             </Card.Text>
                             <Button href={project.githuburl} >Github Url</Button>
                         </Card.Body>
